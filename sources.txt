@@ -49,3 +49,6 @@ https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/all_c
 https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt
 https://raw.githubusercontent.com/rango-cfs/NewCollector/main/v2ray_links.txt
 https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri
+https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/normal?app=xray
+https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/fragment?app=xray
+https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/warp-pro?app=xray

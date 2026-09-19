@@ -1,0 +1,1 @@
+vless://77777777-8a3e-6666-b6d1-a9c5f0e8b3a2@172.64.53.194:2087?security=tls&sni=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&type=ws&host=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&path=%3Fed%3D2560&fp=chrome&allowInsecure=1#Mobin%20%E2%9C%A6%20%F0%9F%87%B0%F0%9F%87%B7%20South%20Korea%2001%20%C2%B7%20VLESS

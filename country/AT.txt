@@ -1,0 +1,2 @@
+vless://edde565e-41f5-400e-84ea-7b87a3e84488@152.53.1.40:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&security=reality&sid=43dcff53849b81e6&sni=at.quattro-tech.ru&type=tcp#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%B9%20Austria%2001%20%C2%B7%20VLESS
+vless://edde565e-41f5-400e-84ea-7b87a3e84488@152.53.1.40:443?security=reality&type=tcp&sni=at.quattro-tech.ru&fp=qq&flow=xtls-rprx-vision&sid=43dcff53849b81e6&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%B9%20Austria%2002%20%C2%B7%20VLESS

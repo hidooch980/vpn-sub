@@ -1,0 +1,369 @@
+{
+ "_run": 802,
+ "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 233,
+  "pref_hints": 345
+ },
+ "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 1,
+  "pref_hints": 43
+ },
+ "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 4,
+  "pref_hints": 1
+ },
+ "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt": {
+  "zero_runs": 9,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/all_extracted_configs.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 271,
+  "pref_hints": 774
+ },
+ "https://raw.githubusercontent.com/Kolandone/v2raycollector/main/config.txt": {
+  "zero_runs": 15,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 262
+ },
+ "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 79,
+  "pref_hints": 586
+ },
+ "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 8,
+  "pref_hints": 11
+ },
+ "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt": {
+  "zero_runs": 11,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 5,
+  "pref_hints": 4
+ },
+ "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 1,
+  "pref_hints": 14
+ },
+ "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 5,
+  "pref_hints": 3
+ },
+ "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 9,
+  "pref_hints": 2
+ },
+ "https://raw.githubusercontent.com/mheidari98/.proxy/main/all": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 134,
+  "pref_hints": 169
+ },
+ "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt": {
+  "zero_runs": 11,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/configs/proxy_configs.txt": {
+  "zero_runs": 11,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/Rayan-Config/C-Sub/main/configs/proxy.txt": {
+  "zero_runs": 11,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/vless.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 1,
+  "pref_hints": 12
+ },
+ "https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime": {
+  "zero_runs": 227,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 3
+ },
+ "https://raw.githubusercontent.com/hans-thomas/v2ray-subscription/master/servers.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 1,
+  "pref_hints": 1
+ },
+ "https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 12,
+  "pref_hints": 6
+ },
+ "https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt": {
+  "zero_runs": 11,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/Seyedhub/Subscription/main/sub.txt": {
+  "zero_runs": 8,
+  "good_runs": 0,
+  "last_alive": 0
+ },
+ "https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/main/configs.txt": {
+  "zero_runs": 8,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/main/configs.txt": {
+  "zero_runs": 8,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "_discovered_at": 1790449704,
+ "https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt": {
+  "zero_runs": 22,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/main/configs/Vless.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 25,
+  "pref_hints": 103
+ },
+ "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt": {
+  "zero_runs": 22,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vless.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 71,
+  "pref_hints": 29
+ },
+ "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix": {
+  "zero_runs": 22,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/configs.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 16,
+  "pref_hints": 242
+ },
+ "https://raw.githubusercontent.com/Firmfox/Proxify/main/v2ray_configs/separated_by_protocol/mixed.txt": {
+  "zero_runs": 4,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 2
+ },
+ "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/mix.txt": {
+  "zero_runs": 47,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/Nima-Monajjemy/v2ray-configs/main/configs.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 4,
+  "pref_hints": 2
+ },
+ "https://raw.githubusercontent.com/SoliSpirit/SolVPN/main/all_configs.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 8,
+  "pref_hints": 9
+ },
+ "https://raw.githubusercontent.com/alexantSWE/V2ray-Config/main/All_Configs_Sub.txt": {
+  "zero_runs": 11,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/amirkma/proxykma/main/mix.txt": {
+  "zero_runs": 16,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt": {
+  "zero_runs": 12,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/cybersecplayground/V2Hive/main/by-protocol/all_vless.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 2,
+  "pref_hints": 471
+ },
+ "https://raw.githubusercontent.com/gbcwror/v2ray-tester/main/configs/vless/vless-1.txt": {
+  "zero_runs": 9,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/iProxyChannel/V2ray-Configs/main/sub_plain.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 1,
+  "pref_hints": 7
+ },
+ "https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/mix.txt": {
+  "zero_runs": 16,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/jagger235711/V2rayCollector/main/results/mixed_tested.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 10,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/miladtahanian/Config-Collector/main/mixed_iran.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 2,
+  "pref_hints": 3
+ },
+ "https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/allConfigs.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 1,
+  "pref_hints": 41
+ },
+ "https://raw.githubusercontent.com/pornnewbee/free-vless-VPN/main/vless.txt": {
+  "zero_runs": 8,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/Baarcuda/vpn-configs/master/top100-vless.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 4,
+  "pref_hints": 1
+ },
+ "https://raw.githubusercontent.com/10ium/V2Hub3/main/merged": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 1,
+  "pref_hints": 9
+ },
+ "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/mix": {
+  "zero_runs": 84,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 1
+ },
+ "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt": {
+  "zero_runs": 20,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/sub.txt": {
+  "zero_runs": 12,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/hamedp-71/Sub_Checker_Creator/main/vless.txt": {
+  "zero_runs": 3,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/all_configs.txt": {
+  "zero_runs": 0,
+  "good_runs": 0,
+  "last_alive": 8,
+  "pref_hints": 5
+ },
+ "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt": {
+  "zero_runs": 21,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/rango-cfs/NewCollector/main/v2ray_links.txt": {
+  "zero_runs": 22,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri": {
+  "zero_runs": 39,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/normal?app=xray": {
+  "zero_runs": 2,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/fragment?app=xray": {
+  "zero_runs": 2,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/warp-pro?app=xray": {
+  "zero_runs": 2,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/raw?app=xray": {
+  "zero_runs": 8,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ },
+ "https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/raw?app=xray&fragment=1": {
+  "zero_runs": 12,
+  "good_runs": 0,
+  "last_alive": 0,
+  "pref_hints": 0
+ }
+}

@@ -1,0 +1,1 @@
+vless://d0f0a880-0df1-48c9-bdf1-5669fb9483ce@151.241.138.44:443?&security=reality&flow=xtls-rprx-vision&pbk=SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I&fp=firefox&sni=condropolo.ggisopi.su&type=tcp&headerType=none&host=condropolo.ggisopi.su&path=%2F#Mobin%20%E2%9C%A6%20%F0%9F%87%AE%F0%9F%87%B7%20Iran%2001%20%C2%B7%20VLESS

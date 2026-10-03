@@ -1,0 +1,322 @@
+{
+  "last_run_utc": "2026-10-03 15:56:49",
+  "sources": {
+    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt": {
+      "links": 7920,
+      "parsed": 7034,
+      "new_unique": 4153,
+      "alive": 247,
+      "pref_hints": 338
+    },
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt": {
+      "links": 4168,
+      "parsed": 4166,
+      "new_unique": 3868,
+      "alive": 1,
+      "pref_hints": 42
+    },
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub": {
+      "links": 5,
+      "parsed": 4,
+      "new_unique": 2,
+      "alive": 2
+    },
+    "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/all_extracted_configs.txt": {
+      "links": 73757,
+      "parsed": 65589,
+      "new_unique": 53019,
+      "alive": 307,
+      "pref_hints": 1882
+    },
+    "https://raw.githubusercontent.com/Kolandone/v2raycollector/main/config.txt": {
+      "links": 52210,
+      "parsed": 45822,
+      "new_unique": 4422,
+      "alive": 0,
+      "pref_hints": 268
+    },
+    "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless": {
+      "links": 12046,
+      "parsed": 11374,
+      "new_unique": 8089,
+      "alive": 29,
+      "pref_hints": 497
+    },
+    "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt": {
+      "links": 3970,
+      "parsed": 3831,
+      "new_unique": 206,
+      "alive": 14,
+      "pref_hints": 21
+    },
+    "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt": {
+      "links": 2762,
+      "parsed": 2549,
+      "new_unique": 174,
+      "alive": 10,
+      "pref_hints": 17
+    },
+    "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt": {
+      "links": 9885,
+      "parsed": 8284,
+      "new_unique": 200,
+      "alive": 0,
+      "pref_hints": 16
+    },
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt": {
+      "links": 150,
+      "parsed": 145,
+      "new_unique": 11,
+      "alive": 6,
+      "pref_hints": 3
+    },
+    "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed": {
+      "links": 7434,
+      "parsed": 6555,
+      "new_unique": 40,
+      "alive": 8,
+      "pref_hints": 1
+    },
+    "https://raw.githubusercontent.com/mheidari98/.proxy/main/all": {
+      "links": 23300,
+      "parsed": 21996,
+      "new_unique": 4270,
+      "alive": 57,
+      "pref_hints": 146
+    },
+    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/vless.txt": {
+      "links": 263,
+      "parsed": 246,
+      "new_unique": 102,
+      "alive": 0,
+      "pref_hints": 14
+    },
+    "https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime": {
+      "links": 124,
+      "parsed": 124,
+      "new_unique": 6,
+      "alive": 0
+    },
+    "https://raw.githubusercontent.com/hans-thomas/v2ray-subscription/master/servers.txt": {
+      "links": 146,
+      "parsed": 145,
+      "new_unique": 6,
+      "alive": 2,
+      "pref_hints": 1
+    },
+    "https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt": {
+      "links": 674,
+      "parsed": 647,
+      "new_unique": 111,
+      "alive": 38,
+      "pref_hints": 12
+    },
+    "https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/main/configs/Vless.txt": {
+      "links": 48288,
+      "parsed": 43484,
+      "new_unique": 12611,
+      "alive": 32,
+      "pref_hints": 507
+    },
+    "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vless.txt": {
+      "links": 9909,
+      "parsed": 9102,
+      "new_unique": 353,
+      "alive": 43,
+      "pref_hints": 34
+    },
+    "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/configs.txt": {
+      "links": 11956,
+      "parsed": 10641,
+      "new_unique": 2673,
+      "alive": 23,
+      "pref_hints": 168
+    },
+    "https://raw.githubusercontent.com/Firmfox/Proxify/main/v2ray_configs/separated_by_protocol/mixed.txt": {
+      "links": 12459,
+      "parsed": 7989,
+      "new_unique": 16,
+      "alive": 1,
+      "pref_hints": 1
+    },
+    "https://raw.githubusercontent.com/Nima-Monajjemy/v2ray-configs/main/configs.txt": {
+      "links": 402,
+      "parsed": 401,
+      "new_unique": 4,
+      "alive": 3,
+      "pref_hints": 3
+    },
+    "https://raw.githubusercontent.com/SoliSpirit/SolVPN/main/all_configs.txt": {
+      "links": 740,
+      "parsed": 736,
+      "new_unique": 61,
+      "alive": 5,
+      "pref_hints": 7
+    },
+    "https://raw.githubusercontent.com/cybersecplayground/V2Hive/main/by-protocol/all_vless.txt": {
+      "links": 85691,
+      "parsed": 76911,
+      "new_unique": 49444,
+      "alive": 7,
+      "pref_hints": 7621
+    },
+    "https://raw.githubusercontent.com/gbcwror/v2ray-tester/main/configs/vless/vless-1.txt": {
+      "links": 195,
+      "parsed": 193,
+      "new_unique": 2,
+      "alive": 0
+    },
+    "https://raw.githubusercontent.com/iProxyChannel/V2ray-Configs/main/sub_plain.txt": {
+      "links": 500,
+      "parsed": 480,
+      "new_unique": 72,
+      "alive": 4,
+      "pref_hints": 7
+    },
+    "https://raw.githubusercontent.com/jagger235711/V2rayCollector/main/results/mixed_tested.txt": {
+      "links": 891,
+      "parsed": 891,
+      "new_unique": 19,
+      "alive": 11,
+      "pref_hints": 2
+    },
+    "https://raw.githubusercontent.com/miladtahanian/Config-Collector/main/mixed_iran.txt": {
+      "links": 525,
+      "parsed": 471,
+      "new_unique": 42,
+      "alive": 1,
+      "pref_hints": 1
+    },
+    "https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/allConfigs.txt": {
+      "links": 4344,
+      "parsed": 2295,
+      "new_unique": 598,
+      "alive": 1,
+      "pref_hints": 12
+    },
+    "https://raw.githubusercontent.com/Baarcuda/vpn-configs/master/top100-vless.txt": {
+      "links": 86,
+      "parsed": 84,
+      "new_unique": 14,
+      "alive": 1,
+      "pref_hints": 1
+    },
+    "https://raw.githubusercontent.com/10ium/V2Hub3/main/merged": {
+      "links": 1720,
+      "parsed": 1500,
+      "new_unique": 80,
+      "alive": 1,
+      "pref_hints": 3
+    },
+    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/all_configs.txt": {
+      "links": 6654,
+      "parsed": 5070,
+      "new_unique": 23,
+      "alive": 7,
+      "pref_hints": 4
+    },
+    "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt": {
+      "links": 801,
+      "parsed": 773,
+      "new_unique": 42,
+      "alive": 0
+    },
+    "https://raw.githubusercontent.com/amir-reza-bijandi/v2ray-configs/main/configs.txt": {
+      "links": 308,
+      "parsed": 268,
+      "new_unique": 25,
+      "alive": 2,
+      "pref_hints": 4
+    },
+    "https://raw.githubusercontent.com/mohammadaz2/v2rayConfigsForYou/main/configs.txt": {
+      "links": 426,
+      "parsed": 350,
+      "new_unique": 6,
+      "alive": 0
+    }
+  },
+  "paused_sources": [
+    "https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt",
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt",
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix",
+    "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/mix.txt",
+    "https://raw.githubusercontent.com/alexantSWE/V2ray-Config/main/All_Configs_Sub.txt",
+    "https://raw.githubusercontent.com/amirkma/proxykma/main/mix.txt",
+    "https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt",
+    "https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/mix.txt",
+    "https://raw.githubusercontent.com/pornnewbee/free-vless-VPN/main/vless.txt",
+    "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/mix",
+    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",
+    "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/sub.txt",
+    "https://raw.githubusercontent.com/hamedp-71/Sub_Checker_Creator/main/vless.txt",
+    "https://raw.githubusercontent.com/rango-cfs/NewCollector/main/v2ray_links.txt",
+    "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",
+    "https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/raw?app=xray",
+    "https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/raw?app=xray&fragment=1",
+    "https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt"
+  ],
+  "unique": 144764,
+  "test_mode": "sing-box (real HTTPS through proxy)",
+  "alive": 863,
+  "published": 500,
+  "fastest_ms": 49,
+  "median_ms": 534,
+  "countries": {
+    "Turkey": 4,
+    "UAE": 2,
+    "Armenia": 1,
+    "Germany": 46,
+    "Netherlands": 78,
+    "Australia": 2,
+    "Austria": 3,
+    "BY": 1,
+    "Bulgaria": 3,
+    "Canada": 14,
+    "Chile": 1,
+    "Estonia": 7,
+    "Finland": 11,
+    "France": 20,
+    "Hong Kong": 2,
+    "Ireland": 6,
+    "Italy": 4,
+    "Japan": 20,
+    "Latvia": 1,
+    "Lithuania": 4,
+    "Mexico": 2,
+    "Poland": 15,
+    "Romania": 3,
+    "Russia": 3,
+    "Singapore": 8,
+    "South Korea": 7,
+    "Spain": 2,
+    "Sweden": 7,
+    "Switzerland": 6,
+    "Taiwan": 2,
+    "UK": 14,
+    "USA": 201
+  },
+  "protocols": {
+    "vless": 348,
+    "trojan": 19,
+    "hysteria2": 22,
+    "vmess": 40,
+    "ss": 70,
+    "socks": 1
+  },
+  "total": 500,
+  "new_last_hour": 11,
+  "new_last_6h": 67,
+  "by_country": {
+    "US": 201,
+    "NL": 78,
+    "DE": 46,
+    "FR": 20,
+    "JP": 20,
+    "PL": 15,
+    "CA": 14,
+    "GB": 14,
+    "FI": 11,
+    "SG": 8
+  },
+  "generated_at": "2026-10-03T15:56:49Z"
+}

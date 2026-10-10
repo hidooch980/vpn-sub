@@ -1,0 +1,1 @@
+vless://6c713691-3ca2-0008-ad25-113d1bed6b03@89.125.96.90:2053?security=tls&type=ws&path=/vpn-wss/fluxor/59011/&packetEncoding=xudp&alpn=http/1.1&sni=wss.zazazuza.ru&fp=chrome&encryption=none#Mobin%20%E2%9C%A6%20%F0%9F%87%A7%F0%9F%87%BE%20BY%2001%20%C2%B7%20VLESS

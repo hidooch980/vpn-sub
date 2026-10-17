@@ -1,0 +1,1 @@
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@85.120.144.116:443?flow=xtls-rprx-vision&fp=firefox&pbk=pkKL2cqqPNxc1rqrvhJmexI7NOeZFaGUawAwqQpVY3c&security=reality&sid=1d2fecf1d2475168&sni=ro2.aiage.work&type=tcp#Mobin%20%E2%9C%A6%20%F0%9F%87%B2%F0%9F%87%A9%20Moldova%2001%20%C2%B7%20VLESS

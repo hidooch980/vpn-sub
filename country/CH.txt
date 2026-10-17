@@ -1,0 +1,2 @@
+hysteria2://3a702d4d1de4949005d8431220e040fb@152.67.75.161:443/?insecure=1&obfs=salamander&obfs-password=c13f29db6a638ad2b211b9ce2669ef27&sni=www.bing.com#Mobin%20%E2%9C%A6%20%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2001%20%C2%B7%20HYSTERIA2
+hysteria2://84a506ca5aca505696a454d828420b3f@140.238.213.114:50160?insecure=1&sni=www.bing.com#Mobin%20%E2%9C%A6%20%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2002%20%C2%B7%20HYSTERIA2

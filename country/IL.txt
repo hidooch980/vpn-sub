@@ -1,0 +1,1 @@
+vless://4f34bc04-479c-49ba-91a8-6bb9ed15031c@177.3.208.65:443?security=tls&type=ws&path=/vless-il&host=tgmansion.site&packetEncoding=none&allowInsecure=1&sni=tgmansion.site&fp=firefox#Mobin%20%E2%9C%A6%20%F0%9F%87%AE%F0%9F%87%B1%20Israel%2001%20%C2%B7%20VLESS

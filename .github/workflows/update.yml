@@ -96,6 +96,34 @@ jobs:
           SEEN_URL: https://raw.githubusercontent.com/${{ github.repository }}/sub/seen.json
         run: python scanner.py
 
+      # Static copies of the Worker's small JSON/list endpoints, so phones read them from GitHub/jsDelivr
+      # and the Worker (free plan: 100k requests/day for the whole account) is only a fallback.
+      # ~20 Worker requests per run. A failed fetch keeps the previous copy from the `sub` branch.
+      - name: Mirror Worker endpoints to meta/
+        continue-on-error: true
+        run: |
+          W=https://molido-sub.hidooch980.workers.dev
+          P=https://raw.githubusercontent.com/${{ github.repository }}/sub/meta
+          mkdir -p output/meta
+          get() { # $1 = worker path, $2 = file name, $3 = min bytes
+            if curl -fsS -m 30 -o "output/meta/$2.tmp" "$W$1" && [ "$(stat -c%s "output/meta/$2.tmp")" -ge "$3" ]; then
+              mv "output/meta/$2.tmp" "output/meta/$2"
+            else
+              rm -f "output/meta/$2.tmp"; curl -fsS -m 30 -o "output/meta/$2" "$P/$2" || rm -f "output/meta/$2"
+            fi
+          }
+          get /app/flags.json flags.json 2
+          get /app/notice.json notice.json 2
+          get /app/latest.json latest.json 50
+          get /app/changelog.json changelog.json 2
+          get / catalog.txt 1000
+          for op in "" mci irancell tci rightel shatel other; do
+            get "/scores?op=$op" "scores-${op:-all}.json" 2
+            get "/cfip?op=$op" "cfip-${op:-all}.json" 2
+          done
+          date -u +%s > output/meta/updated
+          ls -la output/meta
+
       - name: Publish to 'sub' branch (no history, keeps repo small)
         run: |
           cd output

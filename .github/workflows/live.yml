@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # lets a run start the next one (GitHub's */5 cron is often delayed or never fires)
 
 concurrency:
   group: live-meta
@@ -52,3 +53,22 @@ jobs:
           done
           # Hint only (the app re-reads version.json from GitHub); a forged hint costs one small GET.
           curl -fsS -m 20 -d '{"t":"v","v":"${{ steps.meta.outputs.version }}"}' "https://ntfy.sh/$LIVE_TOPIC" -o /dev/null || true
+
+  # Self-scheduling loop so a new release reaches apps within ~4 min without any Worker polling.
+  # The cron above stays as a backup if the chain breaks.
+  schedule-next:
+    needs: live
+    if: always() && github.ref == 'refs/heads/main' && github.event_name != 'push'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Start the next live check in ~3 minutes
+        run: |
+          sleep 180
+          # One chain only: if another live run is already queued or running, let it carry on.
+          others=$(gh run list -R "$GITHUB_REPOSITORY" -w live.yml -L 20 --json databaseId,status \
+            --jq "[.[] | select(.databaseId != ${{ github.run_id }} and (.status == \"queued\" or .status == \"in_progress\" or .status == \"pending\" or .status == \"waiting\"))] | length")
+          if [ "${others:-0}" -gt 0 ]; then echo "another live run is active; not chaining"; exit 0; fi
+          gh workflow run live.yml -R "$GITHUB_REPOSITORY" --ref main

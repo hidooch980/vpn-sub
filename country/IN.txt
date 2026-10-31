@@ -1,0 +1,2 @@
+trojan://5t6i121em5lkmsmk@in002.zestapp778.com:42733?type=tcp&security=tls&fp=chrome&sni=in002.zestapp778.com#Mobin%20%E2%9C%A6%20%F0%9F%87%AE%F0%9F%87%B3%20India%2001%20%C2%B7%20TROJAN
+trojan://5t6i121em5lkmsmk@in002.zestapp778.com:42733?allowInsecure=1&sni=in002.zestapp778.com#Mobin%20%E2%9C%A6%20%F0%9F%87%AE%F0%9F%87%B3%20India%2002%20%C2%B7%20TROJAN

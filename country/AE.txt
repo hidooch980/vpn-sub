@@ -1,0 +1,2 @@
+vless://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?type=ws&host=95.174.68.188&path=/vless#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2001%20%C2%B7%20VLESS
+vless://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?path=%2Fvless&security=none&sni=95.174.68.188&type=ws#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2002%20%C2%B7%20VLESS

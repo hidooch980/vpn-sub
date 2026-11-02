@@ -1,0 +1,1 @@
+vless://fbda2834-b1e7-4148-afb9-deda31036a30@w.geogame.ir:2053?security=tls&type=tcp&packetEncoding=xudp&sni=w.geogame.ir&fp=chrome#Mobin%20%E2%9C%A6%20%F0%9F%87%AB%F0%9F%87%B7%20France%2001%20%C2%B7%20VLESS

@@ -1,0 +1,2 @@
+vless://099244b9-2168-4dbd-870e-cbbe9d6eb573@188.164.248.81:2087?security=tls&type=ws&path=/proxyip=ProxyIP.SG.CMLiussss.Net&host=whitecreeper.pages.dev&packetEncoding=xudp&sni=whitecreeper.pages.dev&fp=chrome&encryption=none#Mobin%20%E2%9C%A6%20%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2001%20%C2%B7%20VLESS
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@45.77.243.143:443?fp=firefox&security=tls&sni=sg003.zestapp778.com&type=tcp#Mobin%20%E2%9C%A6%20%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2002%20%C2%B7%20VLESS

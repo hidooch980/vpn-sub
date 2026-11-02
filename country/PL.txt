@@ -1,0 +1,2 @@
+vless://0de1d303-d7de-0001-8679-c4cb67e2e2cc@94.249.180.86:443?security=reality&encryption=none&pbk=WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=amd.com&sid=a696de84963656de#Mobin%20%E2%9C%A6%20%F0%9F%87%B5%F0%9F%87%B1%20Poland%2001%20%C2%B7%20VLESS
+hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.188.143:4444?insecure=1&security=tls&sni=bl1.nexfile.net#Mobin%20%E2%9C%A6%20%F0%9F%87%B5%F0%9F%87%B1%20Poland%2002%20%C2%B7%20HYSTERIA2

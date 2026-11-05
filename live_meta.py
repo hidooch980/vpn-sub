@@ -117,6 +117,9 @@ def main(out):
             live = {"flags": json.loads(get(LIVE_RAW + "flags.json")), "notice": json.loads(get(LIVE_RAW + "notice.json"))}
         except Exception:
             live = {}
+    # GitHub is the canonical Android release source. Do not depend on the
+    # Cloudflare Worker for release discovery; preserve the previous manifest
+    # only when the GitHub Releases API is temporarily unavailable.
     try:
         release = latest_release(token)
     except Exception as e:

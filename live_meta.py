@@ -16,7 +16,7 @@ import time
 import urllib.request
 
 WORKER = "https://molido-sub.hidooch980.workers.dev"
-APP_REPO = "hidooch980/molidovpn"
+APP_REPO = "hidooch980/molidovpn-android"
 RESILIENCE = "https://raw.githubusercontent.com/hidooch980/molidovpn-android/main/remote/resilience.json"
 SUB_UPDATED = "https://raw.githubusercontent.com/hidooch980/vpn-sub/sub/meta/updated"
 LIVE_RAW = "https://raw.githubusercontent.com/hidooch980/vpn-sub/live/"

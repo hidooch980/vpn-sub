@@ -44,6 +44,19 @@ def latest_release(token):
     return release_body(r)
 
 
+def add_legacy_android_assets(assets):
+    """Add old filenames as aliases while keeping the canonical APK download URLs and hashes."""
+    out = list(assets)
+    for item in assets:
+        name = item.get("name", "")
+        if not (name.startswith("MolidoMeshAI-android-") and name.endswith(".apk")):
+            continue
+        suffix = name[len("MolidoMeshAI"):]
+        for prefix in ("MolidoVPN", "MobinVPN"):
+            out.append({**item, "name": prefix + suffix})
+    return out
+
+
 def release_body(r):
     def asset(a):
         d = a.get("digest") or ""
@@ -52,11 +65,12 @@ def release_body(r):
             out["digest"] = d
             out["sha256"] = d[7:]
         return out
+    assets = [asset(a) for a in r.get("assets", [])]
     return {
         "tag_name": r["tag_name"],
         "published_at": r.get("published_at"),
         "critical": "[critical]" in (r.get("body") or "").lower(),
-        "assets": [asset(a) for a in r.get("assets", [])],
+        "assets": add_legacy_android_assets(assets),
     }
 
 

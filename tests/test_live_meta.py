@@ -23,7 +23,10 @@ class LiveMeta(unittest.TestCase):
         c, _ = live_meta.build({**live, "flags": {"disabled": ["tor"], "default_mode": "auto"}}, rel, "{}", "123")
         assert c["v"] != a["v"] and c["flags"] != a["flags"] and c["notice"] == a["notice"]
         d, _ = live_meta.build(live, {**rel, "tag_name": "v3.2.2"}, "{}", "123")
-        assert d["release"] == "v3.2.2" and d["v"] != a["v"]
+        assert d["release"].startswith("v3.2.2@") and d["v"] != a["v"]
+        changed_manifest = {**rel, "tag_name": "v3.2.2", "assets": [{"name": "MolidoVPN-android-arm64.apk", "sha256": "b" * 64}]}
+        e, _ = live_meta.build(live, changed_manifest, "{}", "123")
+        self.assertNotEqual(d["release"], e["release"])
 
 
     def test_release_body_marks_critical_and_sha(self):

@@ -81,10 +81,14 @@ def build(live, release, resilience, catalog, previous=None):
     notice = dumps(live["notice"]) if isinstance(live.get("notice"), dict) else None
     latest = dumps(release) if release else (previous or {}).get("latest.json")
     rel = release or {}
+    release_tag = rel.get("tag_name") or (previous or {}).get("release") or ""
+    # Include the manifest hash in the release change token. A same-tag metadata update
+    # (for example, adding legacy asset aliases) must still publish and wake installed apps.
+    release_token = f"{release_tag}@{h(latest)}" if release_tag and latest else release_tag
     parts = {
         "flags": h(flags) if flags else "",
         "notice": h(notice) if notice else "",
-        "release": rel.get("tag_name") or (previous or {}).get("release") or "",
+        "release": release_token,
         "critical": bool(rel.get("critical")),
         "resilience": h(resilience) if resilience else "",
         "catalog": (catalog or "").strip(),

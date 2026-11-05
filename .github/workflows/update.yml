@@ -117,10 +117,10 @@ jobs:
           # The Worker may lag behind the canonical Android repository. Publish the
           # authenticated GitHub release manifest directly when it is complete; keep the
           # Worker copy only as a safe fallback if GitHub metadata is temporarily unavailable.
-          if gh api repos/hidooch980/molidovpn-android/releases/latest > output/meta/latest.json.tmp \\
+          if gh api repos/hidooch980/molidovpn-android/releases/latest > output/meta/latest.json.tmp \
              && jq -e '.tag_name and (.assets | type == "array") and
                ([.assets[] | select((.name | endswith(".apk")) and
-                 ((.digest // "") | test("^sha256:[0-9a-f]{64}$")))] | length >= 3)' \\
+                 ((.digest // "") | test("^sha256:[0-9a-f]{64}$")))] | length >= 3)' \
                output/meta/latest.json.tmp >/dev/null; then
             python3 - <<'PY'
           import json

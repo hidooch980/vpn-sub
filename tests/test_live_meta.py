@@ -36,6 +36,27 @@ class LiveMeta(unittest.TestCase):
         assert r["assets"][0]["sha256"] == "a" * 64
         assert live_meta.release_body({"tag_name": "v2", "body": "", "assets": []})["critical"] is False
 
+    def test_canonical_android_assets_keep_legacy_names_for_old_clients(self):
+        source = [
+            {"name": "MolidoMeshAI-android-arm64.apk", "size": 10,
+             "browser_download_url": "https://github.com/new/release/arm64.apk",
+             "digest": "sha256:" + "b" * 64},
+            {"name": "MolidoMeshAI-android-armv7.apk", "size": 11,
+             "browser_download_url": "https://github.com/new/release/armv7.apk",
+             "digest": "sha256:" + "c" * 64},
+            {"name": "MolidoMeshAI-android-universal.apk", "size": 12,
+             "browser_download_url": "https://github.com/new/release/universal.apk",
+             "digest": "sha256:" + "d" * 64},
+        ]
+        release = live_meta.release_body({"tag_name": "v4.0.2", "body": "", "assets": source})
+        by_name = {a["name"]: a for a in release["assets"]}
+        for suffix in ("arm64", "armv7", "universal"):
+            canonical = by_name[f"MolidoMeshAI-android-{suffix}.apk"]
+            for prefix in ("MolidoVPN", "MobinVPN"):
+                alias = by_name[f"{prefix}-android-{suffix}.apk"]
+                self.assertEqual(alias["browser_download_url"], canonical["browser_download_url"])
+                self.assertEqual(alias["sha256"], canonical["sha256"])
+
     def test_unknown_flags_are_not_published(self):
         parts, files = live_meta.build({}, None, None, None)
         self.assertEqual(parts["flags"], "")

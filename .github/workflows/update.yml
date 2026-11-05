@@ -122,7 +122,17 @@ jobs:
                ([.assets[] | select((.name | endswith(".apk")) and
                  ((.digest // "") | test("^sha256:[0-9a-f]{64}$")))] | length >= 3)' \\
                output/meta/latest.json.tmp >/dev/null; then
-            mv output/meta/latest.json.tmp output/meta/latest.json
+            python3 - <<'PY'
+          import json
+          import live_meta
+          source = "output/meta/latest.json.tmp"
+          with open(source, encoding="utf-8") as f:
+              release = json.load(f)
+          release["assets"] = live_meta.add_legacy_android_assets(release.get("assets", []))
+          with open("output/meta/latest.json", "w", encoding="utf-8") as f:
+              f.write(live_meta.dumps(release))
+          PY
+            rm -f output/meta/latest.json.tmp
           else
             rm -f output/meta/latest.json.tmp
             get /app/latest.json latest.json 50

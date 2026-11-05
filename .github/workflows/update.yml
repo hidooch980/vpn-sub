@@ -114,7 +114,19 @@ jobs:
           }
           get /app/flags.json flags.json 2
           get /app/notice.json notice.json 2
-          get /app/latest.json latest.json 50
+          # The Worker may lag behind the canonical Android repository. Publish the
+          # authenticated GitHub release manifest directly when it is complete; keep the
+          # Worker copy only as a safe fallback if GitHub metadata is temporarily unavailable.
+          if gh api repos/hidooch980/molidovpn-android/releases/latest > output/meta/latest.json.tmp \\
+             && jq -e '.tag_name and (.assets | type == "array") and
+               ([.assets[] | select((.name | endswith(".apk")) and
+                 ((.digest // "") | test("^sha256:[0-9a-f]{64}$")))] | length >= 3)' \\
+               output/meta/latest.json.tmp >/dev/null; then
+            mv output/meta/latest.json.tmp output/meta/latest.json
+          else
+            rm -f output/meta/latest.json.tmp
+            get /app/latest.json latest.json 50
+          fi
           get /app/changelog.json changelog.json 2
           get / catalog.txt 1000
           for op in "" mci irancell tci rightel shatel other; do

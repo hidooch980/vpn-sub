@@ -10,6 +10,9 @@ import live_meta
 class LiveMeta(unittest.TestCase):
 
 
+    def test_release_source_is_canonical_android_repository(self):
+        self.assertEqual(live_meta.APP_REPO, "hidooch980/molidovpn-android")
+
     def test_same_inputs_same_version_and_changes_move_it(self):
         live = {"flags": {"disabled": [], "default_mode": "auto"}, "notice": {}}
         rel = {"tag_name": "v3.2.1", "critical": False, "assets": []}

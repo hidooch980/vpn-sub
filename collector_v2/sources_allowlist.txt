@@ -1,0 +1,53 @@
+# Reviewed source allowlist for collector_v2 (does NOT change production sources.txt).
+# Columns: url | owner | review_date | status | notes
+# status: approved | unverified_origin | candidate | rejected
+# Only "approved" and "unverified_origin" are fetched; candidates are proposals only and are never promoted automatically.
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt | github:Epodonios | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt | github:mahdibland | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub | github:Pawdroid | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/all_extracted_configs.txt | github:ebrasha | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Kolandone/v2raycollector/main/config.txt | github:Kolandone | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless | github:Leon406 | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt | github:MatinGhanbari | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt | github:ALIILAPRO | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt | github:SoliSpirit | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt | github:roosterkid | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed | github:Surfboardv2ray | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/mheidari98/.proxy/main/all | github:mheidari98 | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/vless.txt | github:V2RayRoot | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime | github:NiREvil | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/hans-thomas/v2ray-subscription/master/servers.txt | github:hans-thomas | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt | github:Danialsamadi | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/submerge/converted.txt | github:Surfboardv2ray | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/main/configs/Vless.txt | github:Argh94 | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt | github:MhdiTaheri | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/vless.txt | github:hamedcode | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix | github:MhdiTaheri | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/configs.txt | github:0xRadikal | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Firmfox/Proxify/main/v2ray_configs/separated_by_protocol/mixed.txt | github:Firmfox | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/mix.txt | github:MahanKenway | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Nima-Monajjemy/v2ray-configs/main/configs.txt | github:Nima-Monajjemy | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/SoliSpirit/SolVPN/main/all_configs.txt | github:SoliSpirit | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/alexantSWE/V2ray-Config/main/All_Configs_Sub.txt | github:alexantSWE | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/amirkma/proxykma/main/mix.txt | github:amirkma | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/crackbest/V2ray-Config/main/config.txt | github:crackbest | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/cybersecplayground/V2Hive/main/by-protocol/all_vless.txt | github:cybersecplayground | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/gbcwror/v2ray-tester/main/configs/vless/vless-1.txt | github:gbcwror | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/iProxyChannel/V2ray-Configs/main/sub_plain.txt | github:iProxyChannel | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/mix.txt | github:iboxz | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/jagger235711/V2rayCollector/main/results/mixed_tested.txt | github:jagger235711 | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/miladtahanian/Config-Collector/main/mixed_iran.txt | github:miladtahanian | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/penhandev/AutoAiVPN/main/allConfigs.txt | github:penhandev | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/pornnewbee/free-vless-VPN/main/vless.txt | github:pornnewbee | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Baarcuda/vpn-configs/master/top100-vless.txt | github:Baarcuda | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/10ium/V2Hub3/main/merged | github:10ium | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/mix | github:itsyebekhe | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt | github:youfoundamin | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/sub.txt | github:F0rc3Run | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/hamedp-71/Sub_Checker_Creator/main/vless.txt | github:hamedp-71 | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/all_configs.txt | github:Delta-Kronecker | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub.txt | github:liketolivefree | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/rango-cfs/NewCollector/main/v2ray_links.txt | github:rango-cfs | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri | github:wuqb2i4f | 2026-11-07 | approved | public GitHub repo, copied from sources.txt
+https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/raw?app=xray | unknown | 2026-11-07 | unverified_origin | workers.dev endpoint; owner/origin not documented. Kept; needs manual origin review
+https://q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev/uJm-YeuVJp0zlj/sub/raw?app=xray&fragment=1 | unknown | 2026-11-07 | unverified_origin | workers.dev endpoint; owner/origin not documented. Kept; needs manual origin review

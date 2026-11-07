@@ -3,3 +3,4 @@ __pycache__/
 *.mmdb
 sb.tgz
 sing-box-*/
+collector_v2_out/

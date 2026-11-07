@@ -1,0 +1,37 @@
+{
+ "version": "4.0.10",
+ "items": [
+  {
+   "text": "✨ chore: refresh Android IKEv2 directory",
+   "platform": "all"
+  },
+  {
+   "text": "✨ رفع مشکل(سرعت-test): validate transfers and report tunnel quality (#70)",
+   "platform": "all"
+  },
+  {
+   "text": "✨ رفع مشکل(updater): repair and validate GitHub release redirect parsing (#69)",
+   "platform": "all"
+  },
+  {
+   "text": "✨ افزودن multi-source public and private سرور profiles (#61)",
+   "platform": "all"
+  },
+  {
+   "text": "✨ Harden automatic سرور failover recovery",
+   "platform": "all"
+  },
+  {
+   "text": "✨ Make redesigned home رفع مشکل and non-scrollable",
+   "platform": "all"
+  },
+  {
+   "text": "✨ Redesign MolidoVPN home screen and navigation",
+   "platform": "all"
+  },
+  {
+   "text": "✨ Allow dedicated token for Candidate release publication",
+   "platform": "android"
+  }
+ ]
+}

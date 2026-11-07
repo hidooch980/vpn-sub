@@ -1,0 +1,12 @@
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=&type=ws#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2001%20%C2%B7%20VLESS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?&packet-encoding=xudp&type=ws&headerType=none&host=uae.unixzone.us&path=%2F#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2002%20%C2%B7%20VLESS
+vless://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?sni=95.174.68.188&type=ws&host=95.174.68.188&path=/vless#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2003%20%C2%B7%20VLESS
+vless://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?path=%2Fvless&security=none&sni=95.174.68.188&type=ws#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2004%20%C2%B7%20VLESS
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=none&type=ws&host=uae.unixzone.us&path=/#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2005%20%C2%B7%20VLESS
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-00.catcat321.com:20123?security=tls&sni=hk.catxstar.com#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2006%20%C2%B7%20TROJAN
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@Sclass-00.catcat321.com:20123?allowInsecure=1&sni=hk.catxstar.com#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2007%20%C2%B7%20TROJAN
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@Sclass-00.catcat321.com:20123?sni=hk.catxstar.com&type=tcp&fp=chrome#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2008%20%C2%B7%20TROJAN
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@Sclass-C1.catcat321.com:20086?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=hk.catxstar.com#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2009%20%C2%B7%20TROJAN
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@157.254.38.210:20123?sni=hk.catxstar.com&allowInsecure=1#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2010%20%C2%B7%20TROJAN
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@217.217.222.230:20123?sni=hk.catxstar.com&allowInsecure=1#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2011%20%C2%B7%20TROJAN
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@157.254.38.210:20086?security=tls&sni=hk.catxstar.com&type=tcp&fp=chrome&allowInsecure=0#Mobin%20%E2%9C%A6%20%F0%9F%87%A6%F0%9F%87%AA%20UAE%2012%20%C2%B7%20TROJAN
